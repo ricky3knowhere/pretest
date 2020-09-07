@@ -1,0 +1,11 @@
+{{#contentFor "body"}}
+  <h2>Insert user page</h1>
+  <form action="/users/new" method="post" enctype="multipart/form-data">
+    Name: <input type="text" name="name"><br><br>
+    Email: <input type="email" name="email"><br><br>
+    Password: <input type="password" name="password"><br><br>
+    Birth date: <input type="date" name="birth_date"><br><br>
+    Avatar: <input type="file" name="avatar"><br><br>
+    <button type="submit">Insert</button>
+  </form>
+{{/contentFor}}
