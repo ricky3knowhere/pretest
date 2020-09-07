@@ -6,6 +6,13 @@
   <title>Home Page</title>
 </head>
 <body>
-  {{{body}}}
+{{!-- {{> navigation}} --}}
+  <ul>
+    <li><a href="/dashboard">Dashboard</a></li>
+    <li><a href="/users">Users</a></li>
+    <li><a href="/logout">Logout</a></li>
+  </ul>
+  
+  {{{block 'body'}}}
 </body>
 </html>
